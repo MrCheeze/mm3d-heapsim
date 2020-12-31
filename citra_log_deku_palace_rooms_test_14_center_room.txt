@@ -1,0 +1,312 @@
+[ 187.161002] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x9c C:\Jenkins\workspace\joker\prog\game\sources\os\fileUtility.cpp(219)
+[ 187.161019] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x98056a0 0xe0 C:\Jenkins\workspace\joker\prog\game\sources\os\fileUtility.cpp(219)
+[ 187.189962] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x98056a0
+[ 187.189982] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x4c C:\Jenkins\workspace\joker\prog\game\sources\original\z_room.cpp(453)
+[ 187.189990] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9806260 0x90 C:\Jenkins\workspace\joker\prog\game\sources\original\z_room.cpp(453)
+[ 187.193445] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193460] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805520 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193465] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193473] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fc440 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193485] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193493] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fc1f0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193497] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193504] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fbc10 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193534] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193541] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fb9b0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193546] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193553] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fb3d0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193601] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x8b4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193614] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x8db1a80 0x900 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193619] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193626] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fadf0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193754] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x8b4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193767] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x8db2380 0x900 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193773] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193780] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fa810 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193888] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x230 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193898] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fa5a0 0x270 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193903] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193910] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f9cd0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193918] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x230 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193925] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f9a60 0x270 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193929] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193936] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f9480 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193943] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x230 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193950] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f9210 0x270 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193955] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193961] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f8c30 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193968] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x714 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193975] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f84d0 0x760 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.193980] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.193987] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f7ef0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194003] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x714 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194010] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f7790 0x760 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194015] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194022] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f71b0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194045] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x714 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194055] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f6a50 0x760 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194059] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194066] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f6470 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194094] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x4c8 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194110] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f5f60 0x510 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194114] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194121] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f5980 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194282] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2e4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194292] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f5650 0x330 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194297] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194304] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f5070 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194601] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2e4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194611] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f4d40 0x330 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194616] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194622] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f4760 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194924] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2e4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194934] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f4430 0x330 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.194938] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.194945] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f3e50 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195246] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2e4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195256] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f3b20 0x330 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195260] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195267] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f3540 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195307] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2e4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195317] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f3210 0x330 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195322] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195329] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f2c30 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195366] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x258 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195376] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f2990 0x2a0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195381] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195388] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f23b0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195497] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x258 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195507] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f2110 0x2a0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195512] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195519] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f1b30 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195555] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x258 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195565] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f1890 0x2a0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195569] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195576] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f12b0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195611] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x258 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195621] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f1010 0x2a0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195626] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195633] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f0a30 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195668] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x218 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195678] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97fa340 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195682] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195689] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f0450 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195698] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195705] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97f01f0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195709] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195716] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97efc10 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195760] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195770] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ef9b0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195774] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195781] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ef3d0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195823] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195833] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ef170 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195837] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195844] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97eeb90 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195885] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195897] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ee930 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195902] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195909] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ee350 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195951] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195962] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ed4e0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.195966] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.195973] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ecf00 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196017] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196027] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ecca0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196031] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196039] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97eb920 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196080] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196090] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e7a20 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196094] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196102] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97da2e0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196145] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196155] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97da080 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196159] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196167] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d8940 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196211] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196221] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d9e20 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196225] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196233] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d5af0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196275] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196286] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d9bc0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196290] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196297] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d4950 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196343] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196353] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d46f0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196358] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196365] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d4110 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196408] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196418] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d3eb0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196423] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196430] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d38d0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196473] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196484] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d3670 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196488] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196495] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d3090 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196538] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196548] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d2e30 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196552] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196559] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d2850 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196602] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x220 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196612] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d25f0 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196616] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196624] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d2010 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196666] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0xe58 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196680] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x91fcd40 0xea0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196685] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196693] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d1a30 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196780] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2d0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196791] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d1720 0x310 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196796] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196803] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d1140 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196918] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2d0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196928] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d0e30 0x310 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.196933] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.196940] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d0850 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197031] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x200 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197042] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d0610 0x240 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197046] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197053] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97d0030 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197062] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0xbd4 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197070] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x905a560 0xc20 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197075] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197082] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97cfa50 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197292] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x20c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197305] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97cf800 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197310] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197318] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97cf220 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197327] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x300 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197334] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ceee0 0x340 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197339] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197346] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ce900 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197354] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2c C:\Jenkins\workspace\joker\prog\game\sources\ctr\ActorMultiEffect.cpp(1005)
+[ 187.197360] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9804bd0 0x70 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ActorMultiEffect.cpp(1005)
+[ 187.197366] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ActorMultiEffect.cpp(639)
+[ 187.197373] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ce6b0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ActorMultiEffect.cpp(639)
+[ 187.197452] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2c C:\Jenkins\workspace\joker\prog\game\sources\ctr\ActorMultiEffect.cpp(652)
+[ 187.197461] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9804b60 0x70 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ActorMultiEffect.cpp(652)
+[ 187.197504] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x290 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197514] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97ce3e0 0x2d0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197519] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197526] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97cde00 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197533] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x260 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197560] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97cdb60 0x2a0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.197567] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197574] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97cd580 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.197642] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97cf220
+[ 187.197651] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97cf800
+[ 187.199751] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9804c40
+[ 187.199767] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9802980
+[ 187.199782] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801c40
+[ 187.199796] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97df9f0
+[ 187.199808] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97decb0
+[ 187.199818] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97de6d0
+[ 187.199829] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dd810
+[ 187.199837] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d6fe0
+[ 187.199841] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d75c0
+[ 187.200256] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e5920
+[ 187.200273] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e5340
+[ 187.200286] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e4d60
+[ 187.200298] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e4780
+[ 187.200312] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e41a0
+[ 187.200332] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e3410
+[ 187.200353] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e2680
+[ 187.200362] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x98013b0
+[ 187.200373] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9800b20
+[ 187.200385] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e5f00
+[ 187.200407] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9804b10
+[ 187.200412] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e20a0
+[ 187.200416] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ec320
+[ 187.200436] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9804ac0
+[ 187.200440] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e13d0
+[ 187.200443] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e19b0
+[ 187.200463] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9804430
+[ 187.200468] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e0ad0
+[ 187.200471] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e10b0
+[ 187.200485] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d6750
+[ 187.200489] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d6d30
+[ 187.200502] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d5510
+[ 187.200512] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dffd0
+[ 187.200523] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d9500
+[ 187.200528] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d4f30
+[ 187.200532] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d6260
+[ 187.200542] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dd230
+[ 187.200553] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dc9a0
+[ 187.200565] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dc110
+[ 187.200578] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97db6a0
+[ 187.200589] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dae10
+[ 187.200599] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d8f20
+[ 187.200610] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d80b0
+[ 187.200621] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d7820
+[ 187.200635] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ffd80
+[ 187.200651] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ff4f0
+[ 187.200671] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fec60
+[ 187.200686] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fe3d0
+[ 187.200703] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fdb40
+[ 187.200721] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fd2b0
+[ 187.200737] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fca20
+[ 187.200832] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9806350
+[ 187.200840] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9806930
+[ 187.200849] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x98059d0
+[ 187.200852] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9805fb0
+[ 187.200864] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.200872] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9806930 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.200878] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.200885] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9806350 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.200898] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.200907] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805fb0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10836)
+[ 187.200911] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x59c C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.200918] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x98059d0 0x5e0 C:\Jenkins\workspace\joker\prog\game\sources\original\z_actor.cpp(10944)
+[ 187.215366] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ================= statue changed: 0x0 -> 0x97ce3e0
+[ 187.215466] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x9c C:\Jenkins\workspace\joker\prog\game\sources\os\fileUtility.cpp(219)
+[ 187.215493] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805140 0xe0 C:\Jenkins\workspace\joker\prog\game\sources\os\fileUtility.cpp(219)
+[ 187.215522] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9805220
+[ 187.215530] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9802f60
+[ 187.215535] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9802220
+[ 187.215540] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ec090
+[ 187.215558] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97df290
+[ 187.215565] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e1df0
+[ 187.215571] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ddf70
+[ 187.216184] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x904f760
+[ 187.216196] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x91fa980
+[ 187.216203] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x91fb270
+[ 187.216223] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x91fbb60
+[ 187.216234] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x91fc450
+[ 187.225017] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e39f0
+[ 187.225030] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e2c60
+[ 187.225037] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801990
+[ 187.225041] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801100
+[ 187.225046] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9800870
+[ 187.225051] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d64a0
+[ 187.225129] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9800610
+[ 187.225136] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dab70
+[ 187.225159] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e0820
+[ 187.225163] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dcf80
+[ 187.225168] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dc6f0
+[ 187.225171] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97dbc80
+[ 187.225175] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97db3f0
+[ 187.225179] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97da8c0
+[ 187.225218] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d8690
+[ 187.225225] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97d7e00
+[ 187.225229] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9800360
+[ 187.225233] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ffad0
+[ 187.225237] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97ff240
+[ 187.225241] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fe9b0
+[ 187.225245] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fe120
+[ 187.225264] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fd890
+[ 187.225268] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97fd000
+[ 187.261558] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x14 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(183)
+[ 187.261573] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805430 0x60 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(183)
+[ 187.261589] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0xc C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(306)
+[ 187.261595] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x98053e0 0x50 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(306)
+[ 187.261602] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x1c C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(308)
+[ 187.261608] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805380 0x60 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(308)
+[ 187.261621] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x1c C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(308)
+[ 187.261628] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805320 0x60 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(308)
+[ 187.261632] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x1c C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(308)
+[ 187.261638] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x98052c0 0x60 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(308)
+[ 187.261642] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9805140
+[ 187.263147] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x4c C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(787)
+[ 187.263159] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x9805230 0x90 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(787)
+[ 187.264255] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9805490
+[ 187.264266] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x91fe4d0

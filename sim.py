@@ -1,6 +1,7 @@
 # ported from Leoetlino's original MM3D heapsim code
 
 import math
+from sim_actions import *
 
 Flag_IsRefCounted = 1 << 0
 Flag_PreventReuse = 1 << 1
@@ -24,6 +25,12 @@ class Allocator:
         
         self.ram = {0xDEADBEEF: self.dummy_block, 0x8010000: initial_block}
 
+        self.load_planes = {'right_upper':0,
+                            'left_upper':0,
+                            'right_lower':0,
+                            'left_lower':0,
+                            'right_backdoor':0}
+
     def alloc(self, size, name):
         ptr = 0;
         while True:
@@ -40,7 +47,7 @@ class Allocator:
         block.magic = 0x12345678ABCDEF86
         block.alloc_ticks = -1
 
-        return ptr
+        return ptr+0x40
 
     def allocLarge(self, size):
         block = self.ram[self.dummy_block.next_free_l]
@@ -201,7 +208,7 @@ class Allocator:
         block = self.ram[ptr]
         block.id = alloc_id
         block.flags = Flag_IsRefCounted
-        block.name = 'REF_COUNTED'
+        block.name = '(reference counted)'
         block.alloc_ticks = -1
 
         self.ram[self.dummy_block.refcounted_next].refcounted_prev = block.addr
@@ -209,7 +216,7 @@ class Allocator:
         block.refcounted_prev = self.dummy_block.addr
         self.dummy_block.refcounted_next = block.addr
 
-        return ptr
+        return ptr + 0x40
 
     def validate_integrity(self):
         total_size = 0
@@ -226,7 +233,7 @@ class Allocator:
         assert total_size == 0x1897000
     
     def __repr__(self):
-        return '\n'.join(repr(self.ram[addr]) for addr in sorted(self.ram))
+        return '\n'.join(repr(self.ram[addr]) for addr in sorted(self.ram) if addr != self.dummy_block.addr)
 
 class AllocatorBlock:
     def __init__(self, addr):
@@ -235,53 +242,138 @@ class AllocatorBlock:
         self.size = 0
 
     def __repr__(self):
-        return '%08X %08X %s %s'%(self.addr, abs(self.size), 'Free' if self.size > 0 else 'Used', self.name)
+        if self.size > 0: # FREE
+            return '%08x FREE (free) size=%x' % (self.addr, self.size)
+        elif self.flags & Flag_IsRefCounted: #refcounted
+            return '%08x USED (reference counted) size=%x ref_count=%d' % (self.addr, -self.size, self.ref_count)
+        else: #normal
+            return '%08x USED %s size=%x' % (self.addr, self.name, -self.size)
     
 allocator = Allocator()
-last_returned_addr = 0
 
-for line in open('citra_log_deku_palace.txt'):
+'''
+prev_time = 5
+
+allocator_traces = [
+    'citra_log_deku_palace_rooms_test_01_bootup.txt',
+    'citra_log_deku_palace_rooms_test_02_fileselect.txt',
+    'citra_log_deku_palace_rooms_test_03_palace_scene_load.txt',
+    'citra_log_deku_palace_rooms_test_04_turn_away_from_statue.txt',
+    'citra_log_deku_palace_rooms_test_05_look_towards_palace.txt',
+    'citra_log_deku_palace_rooms_test_06_triple_slash_clip.txt',
+    'citra_log_deku_palace_rooms_test_07_left_room.txt',
+    'citra_log_deku_palace_rooms_test_08_center_room.txt',
+    'citra_log_deku_palace_rooms_test_09_left_room.txt',
+    'citra_log_deku_palace_rooms_test_10_center_room.txt',
+    'citra_log_deku_palace_rooms_test_11_right_room.txt',
+    'citra_log_deku_palace_rooms_test_12_center_room.txt',
+    'citra_log_deku_palace_rooms_test_13_right_room.txt',
+    'citra_log_deku_palace_rooms_test_14_center_room.txt',
+    'citra_log_deku_palace_rooms_test_15_take_out_bomb.txt',
+    'citra_log_deku_palace_rooms_test_16_bomb_explodes.txt',
+    'citra_log_deku_palace_rooms_test_17_smoke_dissipates.txt',
+]
+
+for fname in allocator_traces:
+
+    for line in open(fname):
+        
+        line_split = line.split()
+
+        if ' ALLOC ' in line:
+            alloc_size = int(line_split[-2], base=16)
+            alloc_name = line_split[-1]
+            last_returned_addr = allocator.alloc(alloc_size, alloc_name)
+        elif ' ALLOC_RESULT ' in line:
+            expected_addr = int(line_split[-3], base=16) - 0x40
+            expected_size = int(line_split[-2], base=16)
+            expected_name = line_split[-1]
+            assert last_returned_addr-0x40 == expected_addr
+            assert expected_addr in allocator.ram
+            assert allocator.ram[expected_addr].size == -expected_size
+            assert allocator.ram[expected_addr].name == expected_name
+        elif ' FREE ' in line:
+            free_addr = int(line_split[-1], base=16)
+            allocator.free(free_addr)
+        elif 'Project Restoration initialised' in line:
+            pass
+        elif ' ALLOC_REF ' in line:
+            alloc_id = int(line_split[-1], base=16)
+            alloc_size = int(line_split[-1], base=16)
+            last_returned_addr = allocator.allocRefCounted(alloc_id, alloc_size)
+        elif ' ALLOC_REF_RESULT ' in line:
+            expected_addr = int(line_split[-3], base=16) - 0x40
+            expected_size = int(line_split[-2], base=16)
+            expected_unk = int(line_split[-1])
+            assert last_returned_addr-0x40 == expected_addr
+            assert expected_addr in allocator.ram
+            assert allocator.ram[expected_addr].size == -expected_size
+            assert allocator.ram[expected_addr].name == '(reference counted)'
+            assert allocator.ram[expected_addr].ref_count == expected_unk
+            assert allocator.ram[expected_addr].flags == expected_unk
+        elif 'statue changed' in line:
+            expected_statue_addr = int(line_split[-1], base=16) - 0x40
+            if expected_statue_addr > 0:
+                assert allocator.ram[expected_statue_addr].size == -0x2d0
+                assert allocator.ram[expected_statue_addr].name == 'C:\\Jenkins\\workspace\\joker\\prog\\game\\sources\\original\\z_actor.cpp(10836)'
+        else:
+            print(line_split)
+            1/0
+
+        time = float(line_split[1][:-1])
+        time_delta = time-prev_time
+        if time_delta > 1:
+            pass#print(time_delta, prev_time, time)
+        prev_time = time
+
+"""def center_to_left(firstLoad=False):
+    pass
+
+def left_to_center():
+    pass
+
+def center_to_right(firstLoad=False):
+    pass
+
+def right_to_center():
+    pass
+
+center_to_left(firstLoad=True)
+left_to_center()
+center_to_left()
+left_to_center()
+
+center_to_right(firstLoad=True)
+right_to_center()
+center_to_right()
+right_to_center()"""
+
+print(allocator)
+'''
+
+'''
+count=0
+for line in open('convert_allocator_log_output.txt'):
+    #if 'citra_log_deku_palace_rooms_test_03_palace_scene_load' in line:
+    #    print(''+line.strip())
+    #    break
     
-    line_split = line.split()
+    exec(line)
+print(allocator)
+#'''
 
-    if ' ALLOC ' in line:
-        alloc_size = int(line_split[-2], base=16)
-        alloc_name = line_split[-1]
-        last_returned_addr = allocator.alloc(alloc_size, alloc_name)
-    elif ' ALLOC_RESULT ' in line:
-        expected_addr = int(line_split[-3], base=16) - 0x40
-        expected_size = int(line_split[-2], base=16)
-        expected_name = line_split[-1]
-        assert last_returned_addr == expected_addr
-        assert expected_addr in allocator.ram
-        assert allocator.ram[expected_addr].size == -expected_size
-        assert allocator.ram[expected_addr].name == expected_name
-    elif ' FREE ' in line:
-        free_addr = int(line_split[-1], base=16)
-        allocator.free(free_addr)
-    elif 'Project Restoration initialised' in line:
-        pass
-    elif ' ALLOC_REF ' in line:
-        alloc_id = int(line_split[-1], base=16)
-        alloc_size = int(line_split[-1], base=16)
-        last_returned_addr = allocator.allocRefCounted(alloc_id, alloc_size)
-    elif ' ALLOC_REF_RESULT ' in line:
-        expected_addr = int(line_split[-3], base=16) - 0x40
-        expected_size = int(line_split[-2], base=16)
-        expected_unk = int(line_split[-1])
-        assert last_returned_addr == expected_addr
-        assert expected_addr in allocator.ram
-        assert allocator.ram[expected_addr].size == -expected_size
-        assert allocator.ram[expected_addr].name == 'REF_COUNTED'
-        assert allocator.ram[expected_addr].ref_count == expected_unk
-        assert allocator.ram[expected_addr].flags == expected_unk
-    elif 'statue changed' in line:
-        expected_statue_addr = int(line_split[-1], base=16) - 0x40
-        if expected_statue_addr > 0:
-            assert allocator.ram[expected_statue_addr].size == -0x2d0
-            assert allocator.ram[expected_statue_addr].name == 'C:\\Jenkins\\workspace\\joker\\prog\\game\\sources\\original\\z_actor.cpp(10836)'
-    else:
-        print(line_split)
-        1/0
+initial_load(allocator)
 
-allocator.validate_integrity()
+center_to_left(allocator)
+left_to_center(allocator)
+center_to_left2(allocator)
+left_to_center2(allocator)
+
+center_to_right(allocator)
+right_to_center(allocator)
+center_to_right2(allocator)
+right_to_center2(allocator)
+
+explode_bomb(allocator)
+
+print(allocator)

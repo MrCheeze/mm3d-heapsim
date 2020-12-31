@@ -1,0 +1,14 @@
+[ 208.059023] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x98010b0
+[ 208.059086] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x98013a0
+[ 208.059156] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801b60
+[ 208.059162] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801e50
+[ 208.059189] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801800
+[ 208.059193] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801af0
+[ 208.059202] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9800d50
+[ 208.059206] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801040
+[ 208.059213] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801410
+[ 208.059222] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801700
+[ 208.059231] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x98009f0
+[ 208.059234] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9800ce0
+[ 208.059304] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9801ec0
+[ 208.059312] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x9276630

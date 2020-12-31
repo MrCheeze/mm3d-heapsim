@@ -1,0 +1,22 @@
+[  88.273770] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2c C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(144)
+[  88.273785] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e68e0 0x70 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(144)
+[  88.273839] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x58 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(979)
+[  88.273847] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e6840 0xa0 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(979)
+[  88.274557] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  88.274574] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e65f0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  88.573230] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  88.573244] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e63a0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  88.664779] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e65f0
+[  88.964964] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  88.964985] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e65f0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  88.965521] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e63a0
+[  89.211000] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  89.211022] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e63a0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_shield_particle.cpp(231)
+[  89.367171] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e65f0
+[  89.612451] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: FREE 0x97e63a0
+[  90.437131] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x204 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_hahen.cpp(217)
+[  90.437164] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e65f0 0x250 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_hahen.cpp(217)
+[  90.437553] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x2c C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_hahen.cpp(228)
+[  90.437564] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e6580 0x70 C:\Jenkins\workspace\joker\prog\game\sources\original\z_eff_hahen.cpp(228)
+[  90.437733] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC 0x58 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(979)
+[  90.437742] Debug.Emulated <Debug> core/hle/kernel/svc.cpp:OutputDebugString:831: ALLOC_RESULT 0x97e64e0 0xa0 C:\Jenkins\workspace\joker\prog\game\sources\ctr\ObjectBankArchive.cpp(979)
