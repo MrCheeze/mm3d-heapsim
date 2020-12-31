@@ -249,7 +249,6 @@ class AllocatorBlock:
         else: #normal
             return '%08x USED %s size=%x' % (self.addr, self.name, -self.size)
     
-allocator = Allocator()
 
 '''
 prev_time = 5
@@ -362,18 +361,190 @@ for line in open('convert_allocator_log_output.txt'):
 print(allocator)
 #'''
 
+
+'''for action1 in range(3):
+ for action2 in range(3):
+  for action3 in range(3):
+   for action4 in range(3):
+    for action5 in range(3):
+     for action6 in range(3):
+      print(action1,action2,action3,action4,action5,action6)
+      for first_bomb_time in range(8):
+       for sparks_before_dust in [True,False]:'''
+
+
+for action1,action2,action3,action4,action5,action6,first_bomb_time,sparks_before_dust in [[0,0,1,2,1,2, 6,True],[0,2,1,0,0,2, 0,True]]:
+
+            allocator = Allocator()
+            initial_load(allocator)
+
+            if first_bomb_time == 0:
+                explode_bomb(allocator, sparks_before_dust)
+
+            if action1 == 1:
+                center_to_left(allocator, top_door=False)
+                if first_bomb_time == 1:
+                    explode_bomb(allocator, sparks_before_dust)
+                left_to_center(allocator, top_door=False)
+            elif action1 == 2:
+                center_to_right(allocator, top_door=False)
+                if first_bomb_time == 1:
+                    explode_bomb(allocator, sparks_before_dust)
+                right_to_center(allocator, top_door=False)
+
+            if first_bomb_time == 2:
+                explode_bomb(allocator, sparks_before_dust)
+                
+            if action2 == 1:
+                center_to_left(allocator, top_door=False)
+                if first_bomb_time == 3:
+                    explode_bomb(allocator, sparks_before_dust)
+                left_to_center(allocator, top_door=False)
+            elif action2 == 2:
+                center_to_right(allocator, top_door=False)
+                if first_bomb_time == 3:
+                    explode_bomb(allocator, sparks_before_dust)
+                right_to_center(allocator, top_door=False)
+
+            if first_bomb_time == 4:
+                explode_bomb(allocator, sparks_before_dust)
+                
+            if action3 == 1:
+                center_to_left(allocator, top_door=False)
+                if first_bomb_time == 5:
+                    explode_bomb(allocator, sparks_before_dust)
+                left_to_center(allocator, top_door=False)
+            elif action3 == 2:
+                center_to_right(allocator, top_door=False)
+                if first_bomb_time == 5:
+                    explode_bomb(allocator, sparks_before_dust)
+                right_to_center(allocator, top_door=False)
+
+            if first_bomb_time == 6:
+                explode_bomb(allocator, sparks_before_dust)
+            
+            center_to_left(allocator, top_door=False)
+            explode_bomb(allocator, sparks_before_dust)
+            shoot_nut(allocator)
+            left_to_center(allocator, top_door=True)
+
+            if action4 == 1:
+                center_to_left(allocator, top_door=True)
+                left_to_center(allocator, top_door=True)
+            elif action4 == 2:
+                center_to_right(allocator, top_door=True)
+                right_to_center(allocator, top_door=True)
+                
+            if action5 == 1:
+                center_to_left(allocator, top_door=True)
+                left_to_center(allocator, top_door=True)
+            elif action5 == 2:
+                center_to_right(allocator, top_door=True)
+                right_to_center(allocator, top_door=True)
+                
+            if action6 == 1:
+                center_to_left(allocator, top_door=True)
+                left_to_center(allocator, top_door=True)
+            elif action6 == 2:
+                center_to_right(allocator, top_door=True)
+                right_to_center(allocator, top_door=True)
+                
+            center_to_right(allocator, top_door=True)
+
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][17]); del allocator.unload_groups[LEAVING_RIGHT_2][17]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][28]); del allocator.unload_groups[LEAVING_RIGHT_1][28]
+
+            for addr in allocator.ram:
+                if abs(allocator.ram[addr].size) == 0x2E0 and 'Obj_Tsubo' in allocator.ram[addr].name:
+                    print(str(allocator.ram[addr]), action1, action2, action3, action4, action5, action6, first_bomb_time, sparks_before_dust)
+                    #print(allocator)
+                    break
+            else:
+                continue
+
+            night_transition(allocator)
+
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][34]); del allocator.unload_groups[LEAVING_RIGHT_1][34]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][21]); del allocator.unload_groups[LEAVING_RIGHT_2][21]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][35]); del allocator.unload_groups[LEAVING_RIGHT_1][35]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][22]); del allocator.unload_groups[LEAVING_RIGHT_2][22]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][36]); del allocator.unload_groups[LEAVING_RIGHT_1][36]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][23]); del allocator.unload_groups[LEAVING_RIGHT_2][23]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][37]); del allocator.unload_groups[LEAVING_RIGHT_1][37]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][24]); del allocator.unload_groups[LEAVING_RIGHT_2][24]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][38]); del allocator.unload_groups[LEAVING_RIGHT_1][38]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][25]); del allocator.unload_groups[LEAVING_RIGHT_2][25]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][39]); del allocator.unload_groups[LEAVING_RIGHT_1][39]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][26]); del allocator.unload_groups[LEAVING_RIGHT_2][26]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][40]); del allocator.unload_groups[LEAVING_RIGHT_1][40]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][27]); del allocator.unload_groups[LEAVING_RIGHT_2][27]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][41]); del allocator.unload_groups[LEAVING_RIGHT_1][41]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][28]); del allocator.unload_groups[LEAVING_RIGHT_2][28]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][42]); del allocator.unload_groups[LEAVING_RIGHT_1][42]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][29]); del allocator.unload_groups[LEAVING_RIGHT_2][29]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][43]); del allocator.unload_groups[LEAVING_RIGHT_1][43]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][30]); del allocator.unload_groups[LEAVING_RIGHT_2][30]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][44]); del allocator.unload_groups[LEAVING_RIGHT_1][44]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][31]); del allocator.unload_groups[LEAVING_RIGHT_2][31]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][45]); del allocator.unload_groups[LEAVING_RIGHT_1][45]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][32]); del allocator.unload_groups[LEAVING_RIGHT_2][32]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][46]); del allocator.unload_groups[LEAVING_RIGHT_1][46]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][33]); del allocator.unload_groups[LEAVING_RIGHT_2][33]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][47]); del allocator.unload_groups[LEAVING_RIGHT_1][47]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][34]); del allocator.unload_groups[LEAVING_RIGHT_2][34]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_1][48]); del allocator.unload_groups[LEAVING_RIGHT_1][48]
+            allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][35]); del allocator.unload_groups[LEAVING_RIGHT_2][35]
+            
+            right_to_center(allocator, top_door=False)
+
+            for addr in allocator.ram:
+                if allocator.ram[addr].name == 'Obj_Warpstone':
+                    print(str(allocator.ram[addr]))
+                    
+            center_to_right(allocator, top_door=False)
+            right_to_center(allocator, top_door=False)
+
+            for addr in allocator.ram:
+                if allocator.ram[addr].name == 'Obj_Warpstone':
+                    print(str(allocator.ram[addr]))
+                    
+            center_to_right(allocator, top_door=False)
+            right_to_center(allocator, top_door=False)
+
+            for addr in allocator.ram:
+                if allocator.ram[addr].name == 'Obj_Warpstone':
+                    print(str(allocator.ram[addr]))
+
+'''allocator = Allocator()
 initial_load(allocator)
-
-center_to_left(allocator)
-left_to_center(allocator)
-center_to_left2(allocator)
-left_to_center2(allocator)
-
-center_to_right(allocator)
-right_to_center(allocator)
-center_to_right2(allocator)
-right_to_center2(allocator)
-
-explode_bomb(allocator)
+explode_bomb(allocator, False)
+center_to_right(allocator, top_door=False)
+right_to_center(allocator, top_door=False)
+center_to_left(allocator, top_door=False)
+left_to_center(allocator, top_door=False)
+center_to_left(allocator, top_door=False)
+explode_bomb(allocator, False)
+shoot_nut(allocator)
+left_to_center(allocator, top_door=True)
+center_to_right(allocator, top_door=True)
+right_to_center(allocator, top_door=True)
+center_to_right(allocator, top_door=True)
+for addr in allocator.ram:
+    if allocator.ram[addr].name == 'Obj_Tsubo' and abs(allocator.ram[addr].size) == 0x2E0:
+        print(str(allocator.ram[addr]))
 
 print(allocator)
+
+#night_transition(allocator)
+
+#allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][18])
+#del allocator.unload_groups[LEAVING_RIGHT_2][18]
+#allocator.free(allocator.unload_groups[LEAVING_RIGHT_2][29])
+#del allocator.unload_groups[LEAVING_RIGHT_2][29]
+
+#right_to_center(allocator, top_door=False)
+#for addr in allocator.ram:
+#    if allocator.ram[addr].name == 'Obj_Warpstone':
+#        print(str(allocator.ram[addr]))
+#print(allocator)
+'''

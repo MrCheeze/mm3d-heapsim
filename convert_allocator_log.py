@@ -8,7 +8,7 @@ addr_to_refcounted = {}
 #persistent_count = 0
 unload_group = -1
 lines.append('unload_groups = [{} for i in range(100)]')
-for fname in sorted(glob.glob('citra_log_deku_palace_rooms_test_*.txt')):
+for fname in sorted(glob.glob('citra_log_nighttime_*.txt')):
     temp_count = 0
     lines.append('### %s ###'%fname)
     for line in open(fname):
@@ -53,7 +53,7 @@ for fname in sorted(glob.glob('citra_log_deku_palace_rooms_test_*.txt')):
             1/0
 
 
-f2 = open('convert_allocator_log_output.txt','w')
+f2 = open('convert_allocator_log_output_third.txt','w')
 for line in lines:
     f2.write(line+'\n')
 f2.close()
